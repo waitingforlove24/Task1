@@ -1,0 +1,20 @@
+{
+    "name": "waitingforlove24/prime",
+"autoload": {
+    "psr-4": {
+        "waitingforlove24\\Prime\\": "src/"
+    }
+},
+    "authors": [
+        {
+            "name": "Masharin",
+            "email": "89089089z@gmail.com"
+        }
+    ],
+    "require": {
+        "wp-cli/php-cli-tools": "^0.12.1"
+    },
+    "bin": [
+        "bin/progression"
+    ]
+}

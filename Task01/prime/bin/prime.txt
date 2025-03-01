@@ -1,0 +1,12 @@
+#!/usr/bin/env php
+<?php
+
+require __DIR__ . '/../vendor/autoload.php';
+
+use waitingforlove24\Prime\GameController;
+
+// Инициализация контроллера игры
+$gameController = new GameController();
+
+// Запуск игры
+$gameController->startGame();
